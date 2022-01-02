@@ -17,18 +17,23 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>404 Not Found：该页无法显示 | Hexo</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="404 Not Found：该页无法显示">
-<meta property="og:url" content="https://zzhxufeng.github.io/404.html">
+  <title>Android可执行文件构建过程 | Hexo</title>
+  <meta name="description" content="在构建过程中，Android项目会被编译并打包进一个 .apk 文件。 .apk 文件实际上就是一个 .zip 压缩包。每个 .apk 文件包括一个 classes.dex 文件，这是Dalvik虚拟机的可执行文件。 .apk 中包括：   .dex 文件：.class 文件转换成的Dalvik字节码 AndroidManifest.xml 文件会被编译成二进制版本 编译过的资源文件 resour">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android可执行文件构建过程">
+<meta property="og:url" content="https://zzhxufeng.github.io/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/index.html">
 <meta property="og:site_name" content="Blog">
+<meta property="og:description" content="在构建过程中，Android项目会被编译并打包进一个 .apk 文件。 .apk 文件实际上就是一个 .zip 压缩包。每个 .apk 文件包括一个 classes.dex 文件，这是Dalvik虚拟机的可执行文件。 .apk 中包括：   .dex 文件：.class 文件转换成的Dalvik字节码 AndroidManifest.xml 文件会被编译成二进制版本 编译过的资源文件 resour">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-12-22T07:57:02.676Z">
-<meta property="article:modified_time" content="2021-12-22T07:50:49.295Z">
+<meta property="og:image" content="https://zzhxufeng.github.io/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/build-simplified.png">
+<meta property="og:image" content="https://zzhxufeng.github.io/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/build.png">
+<meta property="article:published_time" content="2022-01-02T14:02:06.000Z">
+<meta property="article:modified_time" content="2022-01-02T15:04:10.171Z">
 <meta property="article:author" content="zzhxufeng">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zzhxufeng.github.io/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/build-simplified.png">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://zzhxufeng.github.io/404.html">
+  <link rel="canonical" href="https://zzhxufeng.github.io/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Blog" type="application/atom+xml">
   
@@ -241,14 +246,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="page-" class="article article-type-page" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-Android可执行文件构建过程" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      404 Not Found：该页无法显示
+      Android可执行文件构建过程
     </h1>
   
 
@@ -256,8 +261,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/404.html" class="article-date">
-	  <time datetime="2021-12-22T07:57:02.676Z" itemprop="datePublished">2021-12-22</time>
+	<a href="/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/" class="article-date">
+	  <time datetime="2022-01-02T14:02:06.000Z" itemprop="datePublished">2022-01-02</time>
 	</a>
 </span>
         
@@ -265,13 +270,53 @@
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/404.html#comments" class="article-comment-link">Comments</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/#comments" class="article-comment-link">Comments</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <script type="text/javascript" src="//www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="<%- config.url %>" homePageName="回到我的主页"></script>
+        <p>在构建过程中，Android项目会被编译并打包进一个 <code>.apk</code> 文件。 <code>.apk</code> 文件实际上就是一个 <code>.zip</code> 压缩包。每个 <code>.apk</code> 文件包括一个 <code>classes.dex</code> 文件，这是Dalvik虚拟机的可执行文件。</p>
+<p><code>.apk</code> 中包括：</p>
+<ul>
+<li> <code>.dex</code> 文件：<code>.class</code> 文件转换成的Dalvik字节码</li>
+<li><code>AndroidManifest.xml</code> 文件会被编译成二进制版本</li>
+<li>编译过的资源文件 <code>resources.arsc</code></li>
+<li>不经编译的资源文件</li>
+</ul>
+<p>一个项目经过编译、打包、签名：</p>
+<p><img src="/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/build-simplified.png" alt="构建过程"></p>
+<p>具体过程：</p>
+<p><img src="/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/build.png" alt="详细构建过程"></p>
+<ol>
+<li><p>首先，<code>Android Asset Packaging Tool(aapt)</code> 工具将资源文件编译。资源文件包括 <code>AndroidManifest.xml</code> 以及其他的一些 <code>XML</code> 文件。这将生成一个 <code>R.java</code> 的类，然后我们可以通过 <code>R</code> 类从 <code>Java</code> 代码中引用资源文件。</p>
+</li>
+<li><p><code>aidl</code> 工具将 <code>.aidl</code> 文件转换成 <code>Java</code> 接口。</p>
+</li>
+<li><p>将所有的 <code>Java</code>  代码通过 <code>Java</code> 编译器编译成 <code>.class</code> 文件。在这一步中编译 <code>src</code> 目录下的所有 <code>Java</code> 文件，生成的文件位于 <code>bin/classes</code> 目录下。</p>
+</li>
+<li><p><code>dex</code> 工具将 <code>.class</code> 文件以及三方代码库转换成 <code>Dalvik</code> 二进制代码，生成一个 <code>.dex</code> 文件。将 <code>Java</code> 字节码转换成 <code>Dalvik</code> 字节码，压缩常量池、消除冗余信息。</p>
+</li>
+<li><p>所有那些没被编译的资源文件（比如图片）、被编译了的资源文件以及 <code>.dex</code> 文件都通过 <code>apkbuilder</code> 工具最后打包成一个 <code>.apk</code> 文件。<code>.apk</code> 文件在发布前还需要进行签名。debug也需要debug的签名。</p>
+</li>
+<li><p>最后还需要对签名后的 <code>.apk</code> 进行 <code>align</code> （对齐）处理。它的主要工作是使 <code>apk</code> 包中所有资源文件距离文件起始偏移4字节的整数倍，这样通过内存映射访问 <code>apk</code> 文件时速度会更快。</p>
+</li>
+</ol>
+<blockquote>
+<p><code>aapt</code> 位于 <code>android-sdk/platform-tools</code> 目录下。<br>该工具的源码在 <code>frameworks/base/tools/aapt</code> 目录下，生成过程的主要入口在 <code>aapt</code> 源码目录下的 <code>Resource.cpp</code> 的 <code>buildResources()</code> 函数。</p>
+</blockquote>
+<blockquote>
+<p><code>aidl</code> 工具在 <code>android-sdk/platform-tools</code> 目录下。<br>工具源码在 <code>frameworks/base/tools/aidl</code> 目录。</p>
+</blockquote>
+<blockquote>
+<p>签名工具有 <code>JDK</code> 提供的 <code>jarsigner</code> 工具，还有 <code>Android</code> 源码中提供的 <code>signapk</code> 工具，其代码位于 <code>build/tools/signapk</code>。</p>
+</blockquote>
+<hr>
+<p>引用：</p>
+<ol>
+<li> <a target="_blank" rel="noopener" href="https://stuff.mit.edu/afs/sipb/project/android/docs/tools/building/index.html">Building and Running</a></li>
+<li>《Android软件安全与逆向分析》</li>
+</ol>
 
       
     </div>
@@ -281,7 +326,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="https://zzhxufeng.github.io/404.html" title="404 Not Found：该页无法显示" target="_blank" rel="external">https://zzhxufeng.github.io/404.html</a>
+      <a href="https://zzhxufeng.github.io/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/" title="Android可执行文件构建过程" target="_blank" rel="external">https://zzhxufeng.github.io/2022/01/02/Android可执行文件构建过程/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -312,12 +357,28 @@
   </article>
   
     
+  <section id="comments">
+  	
+      <div id="vcomments"></div>
+    
+  </section>
+
 
   
 </div>
 
   <nav class="bar bar-footer clearfix" data-stick-bottom>
   <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    
+    <li class="next">
+      <a href="/2021/12/22/hello-world/" title="Hello World"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
   
   
   <!-- Button trigger modal -->
@@ -429,6 +490,37 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+
+   
+
+
+
+
+   
+    
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: '',
+    appKey: '',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
+
+     
 
 
 
