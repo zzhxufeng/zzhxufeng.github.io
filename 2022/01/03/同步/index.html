@@ -17,18 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>友情链接 | Hexo</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="友情链接">
-<meta property="og:url" content="https://zzhxufeng.github.io/links/index.html">
+  <title>同步 | Hexo</title>
+  <meta name="description" content="|   临界区          |   访问和操作共享数据的代码段  ||   执行线程    |       正在执行的代码                          ||   竞争条件    |       多个执行线程在同一临界区中同时执行  ||   同步            |       防止竞争条件||   原子性      |       操作在执行结束前不可被打断，如">
+<meta property="og:type" content="article">
+<meta property="og:title" content="同步">
+<meta property="og:url" content="https://zzhxufeng.github.io/2022/01/03/%E5%90%8C%E6%AD%A5/index.html">
 <meta property="og:site_name" content="Blog">
+<meta property="og:description" content="|   临界区          |   访问和操作共享数据的代码段  ||   执行线程    |       正在执行的代码                          ||   竞争条件    |       多个执行线程在同一临界区中同时执行  ||   同步            |       防止竞争条件||   原子性      |       操作在执行结束前不可被打断，如">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-12-22T07:57:02.680Z">
-<meta property="article:modified_time" content="2021-12-22T07:50:49.295Z">
+<meta property="article:published_time" content="2022-01-03T12:25:15.000Z">
+<meta property="article:modified_time" content="2022-01-06T13:38:50.596Z">
 <meta property="article:author" content="zzhxufeng">
+<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://zzhxufeng.github.io/links/index.html">
+  <link rel="canonical" href="https://zzhxufeng.github.io/2022/01/03/%E5%90%8C%E6%AD%A5/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Blog" type="application/atom+xml">
   
@@ -45,7 +48,7 @@
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 
-<body class="main-center no-sidebar" itemscope itemtype="http://schema.org/WebPage">
+<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
   <header class="header" itemscope itemtype="http://schema.org/WPHeader">
   <div class="slimContent">
     <div class="navbar-header">
@@ -297,66 +300,183 @@
 </aside>
 
   
-  <main class="main" role="main">
-  <article class="article article-links article-type-list" itemscope="">
-  <header class="article-header">
-    <h1 itemprop="title">友情链接</h1>
-    <p class="text-muted">
-      Welcome to the exchange link, you can leave a message on this page
-    </p>
-  </header>
-  <div class="article-body">
-    <div class="row">
+  
+<main class="main" role="main">
+  <div class="content">
+  <article id="post-同步" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
       
         
-          <div class="col-sm-6 col-md-4">
-            <div class="panel panel-default hover-shadow hover-grow">
-              <figure class="media media-middle">
-                <div class="media-left pr-no">
-                  <a href="http://chuangzaoshi.com/" target="_blank" class="img-burn thumb-md media-middle">
-                    <img src="/images/favatar/chuangzaoshi-logo.png" class="w-full" alt="">
-                  </a>
-                </div>
-                <div class="media-body p-0x">
-                  <h4 class="media-heading"><a href="http://chuangzaoshi.com/" target="_blank"><span class="text-dark">创造狮</span></a></h4>
-                  <div class="text-muted">
-                    为创意工作者而设计
-                  </div>
-                </div>
-              </figure>
-            </div>
-          </div>
-          
-        
-          <div class="col-sm-6 col-md-4">
-            <div class="panel panel-default hover-shadow hover-grow">
-              <figure class="media media-middle">
-                <div class="media-left pr-no">
-                  <a href="http://idesign.qq.com/" target="_blank" class="img-burn thumb-md media-middle">
-                    <img src="/images/favatar/idesign-logo.png" class="w-full" alt="">
-                  </a>
-                </div>
-                <div class="media-body p-0x">
-                  <h4 class="media-heading"><a href="http://idesign.qq.com/" target="_blank"><span class="text-dark">腾讯设计导航</span></a></h4>
-                  <div class="text-muted">
-                    网罗全网高逼格的设计站点
-                  </div>
-                </div>
-              </figure>
-            </div>
-          </div>
-          
-    </div>
-  </div>
-</article>
-
   
+    <h1 class="article-title" itemprop="name">
+      同步
+    </h1>
+  
+
+      
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2022/01/03/%E5%90%8C%E6%AD%A5/" class="article-date">
+	  <time datetime="2022-01-03T12:25:15.000Z" itemprop="datePublished">2022-01-03</time>
+	</a>
+</span>
+        
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/Linux/" rel="tag">Linux</a>
+  </span>
+
+
+        
+
+	<span class="article-read hidden-xs">
+    	<i class="icon icon-eye-fill" aria-hidden="true"></i>
+    	<span id="/2022/01/03/%E5%90%8C%E6%AD%A5/" class="leancloud_visitors"  data-flag-title="同步">
+			<span class="leancloud-visitors-count">0</span>
+		</span>
+    </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/01/03/%E5%90%8C%E6%AD%A5/#comments" class="article-comment-link">Comments</a></span>
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <p>|   临界区          |   访问和操作共享数据的代码段  |<br>|   执行线程    |       正在执行的代码                          |<br>|   竞争条件    |       多个执行线程在同一临界区中同时执行  |<br>|   同步            |       防止竞争条件|<br>|   原子性      |       操作在执行结束前不可被打断，如同整个临界区命令是不可分割的指令一样  |</p>
+<p>假定两笔交易同时发生，一者取100，一者取10，余额为105。105 &gt; 100，105 &gt; 10。两者同时发生，105-100=5，更新为5，同时105-10=95，更新为95，最终得到95。</p>
+<h1 id="锁机制"><a href="#锁机制" class="headerlink" title="锁机制"></a>锁机制</h1><p>线程占住锁，结束操作后再释放锁。</p>
+<p>在同一时刻，只有一个线程持有锁，因此只有一个线程可以操作数据。一个线程在更新时，其它线程必须等待第一个线程释放锁。</p>
+<h1 id="要保护些什么"><a href="#要保护些什么" class="headerlink" title="要保护些什么"></a>要保护些什么</h1><p>不需要被保护的数据：</p>
+<ul>
+<li>局部自动变量，独立存在于执行线程的栈中</li>
+<li>如果数据只被特定的线程访问，那么也不需要加锁（因为线程一次只在一个处理器上执行）</li>
+</ul>
+<p>要给数据加锁，而不是给代码加锁。</p>
+
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="https://zzhxufeng.github.io/2022/01/03/%E5%90%8C%E6%AD%A5/" title="同步" target="_blank" rel="external">https://zzhxufeng.github.io/2022/01/03/同步/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="" target="_blank"><span class="text-dark">zzhxufeng</span><small class="ml-1x">Be water, my friend.</small></a></h3>
+        <div>个人简介。</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+
+    </div>
+  </article>
+  
+    
   <section id="comments">
   	
       <div id="vcomments"></div>
     
   </section>
 
+
+  
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/2022/01/05/%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%BB%84%E6%88%90/" title="虚拟机组成"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
+    </li>
+    
+    
+    <li class="next">
+      <a href="/2022/01/02/Android%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B/" title="Android可执行文件构建过程"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
+  
+  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle="modal" data-target="#donateModal"><span>$</span></button>
+  <!-- <div class="wave-icon wave-icon-danger btn-donate" data-toggle="modal" data-target="#donateModal">
+    <div class="wave-circle"><span class="icon"><i class="icon icon-bill"></i></span></div>
+  </div> -->
+  
+  
+  <div class="bar-right">
+    
+  </div>
+  </div>
+</nav>
+  
+<!-- Modal -->
+<div class="modal modal-center modal-small modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content donate">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+        <div class="donate-box">
+          <div class="donate-head">
+            <p>Maybe you could buy me a cup of coffee.</p>
+          </div>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade active in" id="alipay">
+              <div class="donate-payimg">
+                <img src="/images/donate/alipayimg.png" alt="Scan Qrcode" title="Scan" />
+              </div>
+              <p class="text-muted mv">Scan this qrcode</p>
+              <p class="text-grey">Open alipay app scan this qrcode, buy me a coffee!</p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="wechatpay">
+              <div class="donate-payimg">
+                <img src="/images/donate/wechatpayimg.png" alt="Scan Qrcode" title="Scan" />
+              </div>
+              <p class="text-muted mv">Scan this qrcode</p>
+              <p class="text-grey">Open wechat app scan this qrcode, buy me a coffee!</p>
+            </div>
+          </div>
+          <div class="donate-footer">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#alipay" id="alipay-tab" role="tab" data-toggle="tab" aria-controls="alipay" aria-expanded="true"><i class="icon icon-alipay"></i> alipay</a>
+              </li>
+              <li role="presentation" class="">
+                <a href="#wechatpay" role="tab" id="wechatpay-tab" data-toggle="tab" aria-controls="wechatpay" aria-expanded="false"><i class="icon icon-wepay"></i> wechat payment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -410,6 +530,10 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+
+
+
+   
 
 
 
